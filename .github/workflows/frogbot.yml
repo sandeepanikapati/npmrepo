@@ -42,7 +42,12 @@ jobs:
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           # Uncomment the below options if you'd like to use them.
-
+      - name: Post Command 
+        uses: jfrog/frogbot@v2
+        env:
+          # [Mandatory]
+          # The command that installs the dependencies
+          JF_INSTALL_DEPS_CMD: "npm prune"
           # [Optional, default: https://api.github.com]
           # API endpoint to GitHub
           # JF_GIT_API_ENDPOINT: https://github.example.com
