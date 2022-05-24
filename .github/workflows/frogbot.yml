@@ -23,7 +23,7 @@ jobs:
         env:
           # [Mandatory]
           # The command that installs the dependencies
-          JF_INSTALL_DEPS_CMD: "npm i"
+          JF_INSTALL_DEPS_CMD: "npm i --prune"
 
           # [Mandatory]
           # JFrog platform URL
