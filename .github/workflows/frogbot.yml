@@ -47,7 +47,7 @@ jobs:
         env:
           # [Mandatory]
           # The command that installs the dependencies
-          JF_INSTALL_DEPS_CMD: "npm prune"
+          JF_INSTALL_DEPS_CMD: "npm ls"
           # [Optional, default: https://api.github.com]
           # API endpoint to GitHub
           # JF_GIT_API_ENDPOINT: https://github.example.com
