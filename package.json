@@ -30,8 +30,7 @@
     "react-scripts": "^4.0.1",
     "react-select": "^3.1.0",
     "react-tooltip": "^4.2.6",
-    "sessionstorage": "^0.1.0",
-    "sweetalert": "^2.1.2"
+    "sessionstorage": "^0.1.0"
   },
   "devDependencies": {
     "debug": "^4.1.1"
